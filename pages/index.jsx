@@ -37,12 +37,13 @@ export default function Home() {
         <Header title="TE AMO!" />
         {!answer ? (
           <>
-            <p className="description">
-               ¿Quieres casarte conmigo?
-            </p>
+            
             <div className="centered-image">
               <img src={images[imageIndex]} alt="Centered Image" />
             </div>
+            <p className="description">
+               ¿Quieres casarte conmigo?
+            </p>
           </>
         ) : (
           <p>You answered: {answer}</p>
