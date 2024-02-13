@@ -12,13 +12,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Header title="Welcome to my app!" />
+        <Header title="Te Amo Valeria Lizbeth Granados Robles" />
         <div className={styles.imageContainer}>
-          <img src="/path/to/your/image.jpg" alt="Your Image" className={styles.image} />
+          <img src="https://i.pinimg.com/originals/21/a8/51/21a851b0616cfd12f1ec564c742af990.jpg" alt="Nosotros Miamor" className={styles.image} />
           <h2 className={styles.text}>Te amo</h2>
         </div>
         <p className={styles.description}>
-          Si es que quiere casarse conmigo
+          Quieres casarte conmigo??
         </p>
         <div className={styles.buttonContainer}>
           <button className={styles.button}>Si</button>
