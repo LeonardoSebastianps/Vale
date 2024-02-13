@@ -1,102 +1,25 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
-}
-
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #f0f2f5;
-}
-
-.main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.imageContainer {
-  position: relative;
-  display: inline-block;
-}
-
-.image {
-  width: 100%;
-  height: auto;
-}
-
-.text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 2rem;
+.text-container {
   text-align: center;
-  padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.description {
-  color: #333;
-  font-size: 1.125rem;
   padding: 2rem;
-  text-align: center;
 }
 
-.buttonContainer {
+.button-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  padding: 2rem;
 }
 
-.button {
-  background-color: #0070f3;
-  border: none;
-  color: white;
+button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  cursor: pointer;
+  background-color: #0070f3;
+  color: white;
+  border: none;
   border-radius: 0.25rem;
+  cursor: pointer;
 }
 
-.button:hover {
+button:hover {
   background-color: #0056b3;
 }
