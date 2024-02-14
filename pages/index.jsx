@@ -15,7 +15,7 @@ export default function Home() {
         <Header title="TE AMO!" />
         <div className="centered-image">
           <Image
-            src="/path/to/your/image.jpg"
+            src="https://th.bing.com/th/id/R.04c06bd97b02d9d9c7cecbde32ea6bfd?rik=fsM8Oy%2b8Ut%2fCzw&riu=http%3a%2f%2fimg.ezday.co.kr%2fcache%2fscreen%2fimages%2f44%2f78895_800.gif&ehk=ynz1q1hwYop9FgC60TbvoLe7vj0weeHh2tsKUeK9WFQ%3d&risl=&pid=ImgRaw&r=0"
             alt="Centered Image"
             width={400}
             height={300}
