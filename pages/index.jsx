@@ -15,7 +15,7 @@ export default function Home() {
         <Header title="TE AMO!" />
         <div className="centered-image">
           <Image
-            src="https://i.pinimg.com/originals/21/a8/51/21a851b0616cfd12f1ec564c742af990.jpg" // Replace with the path to your desired image
+            src="https://th.bing.com/th/id/R.731bd87a02ba92bd7a6fbc49d1dfeebd?rik=4ipz3gq9%2bvUUOA&pid=ImgRaw&r=0" // Replace with the path to your desired image
             alt="Centered Image"
             width={400}
             height={300}
